@@ -1,0 +1,58 @@
+.creditcard {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #0c0e96;
+  width: 360px;
+  height: 200px;
+}
+.creditcard__data-level {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.creditcard__bank-name,
+.creditcard__name,
+.creditcard__id,
+.creditcard__service-id,
+.creditcard__valid-thru {
+  position: absolute;
+  color: #fff;
+}
+.creditcard__bank-name {
+  font-size: 18px; 
+  right: 0;
+  top: 0;
+}
+.creditcard__id {
+  font-size: 20px;
+  letter-spacing: .5px;
+  bottom: 70px;
+  left: 0;
+}
+.creditcard__name {
+  left: 0;
+  bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.creditcard__service-id {
+  font-size: 12px;
+  letter-spacing: 1px;
+  left: 0;
+  bottom: 50px;
+}
+.creditcard__valid-thru {
+  display: flex;
+  left: 100px;
+  bottom: 30px;
+}
+.creditcard__valid-thru-label {
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #f8f8f8;
+}
+.creditcard__valid-thru-value {
+  font-size: 20px;
+  line-height: 20px;  
+}

@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
